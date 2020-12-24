@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <!--Meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Framework css-->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!--Material design icons-->
+    <link rel="stylesheet" href="./assets/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="./assets/css/plyr.css" />
+    <!--Slider-->
+    <link rel="stylesheet" href="./assets/css/swiper.css">
+    <!---Google Font: Roboto-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!---Meu css customizado-->
+    <link rel="stylesheet" href="./assets/css/custom_style.css">
+
+    <title>Candidatura - Celestino Lopes  | COMPONENTES 2</title>
+</head>
+<body style="background-image: url('./assets/img/galeria/floresta.jpg');background-size: cover;">
+
+        <div class="container" style="margin-top: 4rem;">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="media previsao-tempo">
+                        
+                        <div class="media-body text-center">
+                            <span class="mdi mdi-weather-pouring"></span>
+                            <h5>24c</h5>
+                            <p>Cloud & Sunny</p>
+                        </div>
+                        
+                    </div>
+                    <div class="dias">
+                        <span class="d">
+                            <span class="dia">S</span>
+                            <span class="mdi mdi-weather-partlycloudy"></span>
+                            <span class="graus">22 c</span>
+                        </span>
+                        <span class="d">
+                            <span class="dia">T</span>
+                            <span class="mdi mdi-weather-sunny"></span>
+                            <span class="graus">32 c</span>
+                        </span>
+                        <span class="d">
+                            <span class="dia">Q</span>
+                            <span class="mdi mdi-weather-rainy"></span>
+                            <span class="graus">25 c</span>
+                        </span>
+                        <span class="d">
+                            <span class="dia">Q</span>
+                            <span class="mdi mdi-weather-night"></span>
+                            <span class="graus">28c</span>
+                        </span>
+                        <span class="d">
+                            <span class="dia">S</span>
+                            <span class="mdi mdi-weather-night"></span>
+                            <span class="graus">28c</span>
+                        </span>
+                        <span class="d">
+                            <span class="dia">S</span>
+                            <span class="mdi mdi-weather-pouring"></span>
+                            <span class="graus">23c</span>
+                        </span>
+                        <span class="d">
+                            <span class="dia">D</span>
+                            <span class="mdi mdi-weather-lightning-rainy"></span>
+                            <span class="graus">19 c</span>
+                        </span>
+                    </div>
+
+                    <hr/>
+                  <div class="botoes-social">
+                    <a class="btn btn-primary">
+                        <span class="mdi mdi-facebook"></span>
+                    </a>
+                    <a class="btn btn-primary">
+                        <span class="mdi mdi-instagram"></span>
+                    </a>
+                    <a class="btn btn-primary">
+                        <span class="mdi mdi-twitter"></span>
+                    </a>
+                    
+                    <a class="btn btn-primary">
+                        <span class="mdi mdi-google-plus"></span>
+                    </a>
+                    <a class="btn btn-primary">
+                        <span class="mdi mdi-pinterest"></span>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                    <canvas id="grafico_barra" width="400" height="400"></canvas>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="grafico-radial">
+                        <div class="radial" id="radioChartContent">
+                        </div>
+                        <div class="cap">
+                        </div>
+                        <div class="valor" id="percentValue">
+                       
+                        </div>
+                      </div>
+                </div>
+            </hr>
+            <div class="col-md-5">
+                <div class="footer p-0">
+                    <h5 class="text-center">Stats <span> Last 30 days</span></h5>
+                     <span class="bx">
+                         <span class="numero">7.205</span>
+                         <span class="texto">Visit</span>
+                     </span>
+                     <span class="bx">
+                         <span class="numero">563</span>
+                         <span class="texto">Like</span>
+                     </span>
+                     <span class="bx">
+                         <span class="numero">180</span>
+                         <span class="texto">Comment</span>
+                     </span>
+                     <span class="bx">
+                         <span class="numero">869</span>
+                         <span class="texto">Download</span>
+                     </span>
+                     <span class="bx">
+                         <span class="numero">702</span>
+                         <span class="texto">Share</span>
+                     </span>
+                   
+                 </div>
+                 <div class="box-2">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <img width="60" src="./assets/img/galeria/thumb7-768x576.jpg" class="rounded-1  my-3 mx-1 d-inline-block" alt="">
+                            <img width="60" src="./assets/img/galeria/thumb7-768x576.jpg" class=" rounded-1 my-3 mx-1  d-inline-block" alt="">
+                            <img width="60" src="./assets/img/galeria/thumb7-768x576.jpg" class=" rounded-1 my-3 mx-1  d-inline-block" alt="">
+
+                        </div>
+                        <div class="col-md-5">
+                            <a href="#">@NeonSquare</a>
+                            <p>Apreciate what you have work your ass of for what you want</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <nav class="nav  menu-social">
+                  <a class="nav-link" href="#"><span class="mdi mdi-facebook"></span></a>
+                  <a class="nav-link" href="#"><span class="mdi mdi-twitter"></span></a>
+                  <a class="nav-link " href="#"><span class="mdi mdi-google-plus"></span></a>
+                  <a class="nav-link " href="#"><span class="mdi mdi-pinterest"></span></a>
+                  <div class="input-group">
+                      <span class="input-group-addon" id="prefixId"><span class="mdi mdi-near-me"></span></span>
+                      <input type="text"  class="form-control" placeholder="SUBSCRIBE">
+                  </div>
+                </nav>
+            </div>
+
+        </div>
+
+
+<!-- Ficheiros  Javascript -->
+<script src="./assets/js/jquery.js"></script>
+<script src="./assets/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/js/swiper.min.js"></script>
+<script src="./assets/js/Chart.min.js"></script>
+<script src="./assets/js/plyr.polyfilled.js"></script>
+<script src="./assets/js/app.js"></script>
+
+</body>
+</html>
