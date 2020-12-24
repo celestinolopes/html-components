@@ -5,6 +5,6 @@
 
 ![Screenshot](screeshot.PNG)
 
-![Screenshot](screeNshot-2.PNG)
+![Screenshot](screenshot-2.PNG)
 
-![Screenshot](screeNshot-3.PNG)
+![Screenshot](screenshot-3.PNG)
